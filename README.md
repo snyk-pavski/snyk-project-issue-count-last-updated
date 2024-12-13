@@ -1,4 +1,4 @@
-# Get Last Succesfull Scan date
+# Get Last Successful Scan date
 
 Outputs projects across multiple Snyk Organisations in a Group together with the date of the last time issue count was updated.
 
