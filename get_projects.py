@@ -100,6 +100,7 @@ def extract_project_data(projects, org_name):
             "status": project["attributes"]["status"],
             "issue_count_updated_at": project["meta"]["latest_issue_counts"]["updated_at"],
             # "dep_count_updated_at": project["meta"]["latest_dependency_total"]["updated_at"]
+            "set_scan_frequency": project["attributes"]["settings"]["recurring_tests"]["frequency"]
         }
         project_data.append(project_info)
     return project_data
