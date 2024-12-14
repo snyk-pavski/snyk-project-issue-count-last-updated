@@ -42,7 +42,8 @@ Script will output multiple json files split by individual days e.g.`2024-12-09.
         "type": "sast",
         "target_file": "",
         "status": "active",
-        "issue_count_updated_at": "2024-12-09T23:34:27.293Z"
+        "issue_count_updated_at": "2024-12-09T23:34:27.293Z",
+        "set_scan_frequency": "weekly"
     }
 ]
 ```
